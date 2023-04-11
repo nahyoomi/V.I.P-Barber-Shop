@@ -1,0 +1,20 @@
+
+.navlist {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    list-style: none;
+
+    &--item {
+        color: #ddd;
+        font-family: work sans,sans-serif;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 0 20px;
+        letter-spacing: 0;
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 80px; 
+    }
+}

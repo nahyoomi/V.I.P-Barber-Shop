@@ -1,15 +1,19 @@
+import Navbar from '../Navbar/Navbar';
+import './Header.scss';
+
 const Header = () => {
     return ( 
         <div className="header">
             <div className="header--container">
-                <nav className="header--container--nav">
-                    <a href="#" className="nav--img">
-                        <img src="/" alt="logo"/>
+                <div className="header--container--items">
+                    <a href="/" className="logo">
+                        <img src="https://wilsonkinyua.github.io/barber-shop-web-ui/img/logo.png" alt="logo"/>
                     </a>
-                    <div className="nav--menu">
-
-                    </div>
-                </nav>
+                    <nav className="nav">
+                        <Navbar/>
+                    </nav>
+                    <input className='button' value='Haz tu cita'/>
+                </div>
             </div>
         </div>
     );
